@@ -1,0 +1,38 @@
+.todo-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.todo-input {
+  color: #77777a;
+  border-radius: 5px 0 0 5px;
+  border: 2px solid #eeeeee;
+  font-size: 1rem;
+  width: 80%;
+  padding: 10px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.todo-input::placeholder {
+  color: #9a999e;
+}
+
+.todo-button {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.95rem;
+  width: 20%;
+  border-radius: 0 5px 5px 0;
+
+  padding: 13px 5px;
+  background: #eeeeee;
+  color: #9a999e;
+  border: none;
+}
+
+.edit {
+  margin-top: 10px;
+}

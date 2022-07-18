@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #1e1e1e;
+}
+
+body {
+  background: #5886ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+@import "./style/TodoList";
+@import "./style/TodoForm";
+@import "./style/Todo";

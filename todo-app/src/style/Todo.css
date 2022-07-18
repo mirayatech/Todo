@@ -1,0 +1,37 @@
+.todo-row {
+  display: flex;
+  padding: 30px 0;
+  border-bottom: 1px solid #ddd;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.todo-row:last-child {
+  padding-bottom: 0;
+}
+
+.todo-row:last-child {
+  border: none;
+}
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.icons * {
+  cursor: pointer;
+  font-size: 1rem;
+  color: #77777a;
+
+  transition: all 0.3s ease;
+}
+
+.icons *:hover {
+  cursor: pointer;
+  color: rgb(79, 79, 79);
+  font-size: 1rem;
+}
+
+.remove-icon {
+  margin-left: 30px;
+}
